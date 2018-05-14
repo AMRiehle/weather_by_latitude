@@ -21,6 +21,10 @@ nav .navbar-brand {background-color: darkturquoise;
 
 #nav-brand {color: white;}
 
+.row {
+	background-color: white;
+}
+
 .comparison-holder {
 	background-color: white;
 }

@@ -1,0 +1,149 @@
+body {background-color: gainsboro;}
+
+.navbar-light {
+	padding: 0;
+	margin-bottom: 10px;
+	margin-left: -6%;
+	margin-right: -6.5%;
+	margin-bottom: 4%;
+	padding-left: 5%;
+	padding-right: 2%;
+}
+
+nav .navbar-brand {background-color: darkturquoise;
+	padding: 10px;
+	color: white;
+	font-family: serif;
+	font-weight: bold;
+	font-size: 24px;
+	margin-bottom: 0;
+}
+
+#nav-brand {color: white;}
+
+.comparison-holder {
+	background-color: white;
+}
+
+.comparison-image-left {
+	max-width: 50%;
+	display: inline-block;
+}
+
+.comparison-image-right {
+	max-width: 50%;
+	float: right;
+	display: inline-block;
+}
+
+#data-header {
+padding-top: 1.5%;
+}
+
+table {
+	min-width: 100%;
+	padding-bottom: %;
+}
+
+h1 {color: darkturquoise;
+font-weight: bold;
+font-family: serif;}
+
+h3 {color: darkturquoise;
+font-weight: bold;
+font-family: serif;
+text-align: center;
+padding: 0;
+margin: 0;}
+
+p {color: darkblue;
+text-align: justify;}
+
+section {
+	background-color: white;
+	width: 60%;
+	margin-left: 5%;
+	margin-bottom: 2%;
+	display: inline-block;
+}
+
+section h1 {
+	margin: 3%;
+}
+
+section img {
+	width: 100%;
+}
+
+section p {
+margin-left: 2%;
+margin-right: 2%;
+}
+
+aside {
+width: 30%;
+float: right;
+display: inline-block;
+background-color: white;
+margin-right: 2%;
+}
+
+aside h1 {
+	margin: 3%;
+}
+
+aside img {
+	width: 48%;
+}
+
+.aside-left-image {
+	margin-left: 2%;
+}
+
+.aside-right-image {
+	float: right;
+	margin-right: 2%;
+}
+
+.aside-bottom-image {
+	margin-bottom: 2%;
+}
+
+.active-image {
+	border: 3px solid darkturquoise;
+}
+
+@media (max-width: 768px) {
+	section {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	aside {
+		float: none;
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-bottom: 2%;
+	}
+	aside img {
+		width: 24%;
+	}
+	.aside-left-image {
+		margin: 0;
+	}
+	.aside-right-image {
+		margin: 0;
+		float: none;
+	}
+	.aside-bottom-image {
+		margin: 0;
+	}
+	.comparison-image-right {
+		max-width: 100%;
+		float: none;
+	}
+	.comparison-image-left {
+		max-width: 100%;
+	}
+}

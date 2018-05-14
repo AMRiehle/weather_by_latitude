@@ -48,7 +48,6 @@ padding-top: 1.5%;
 table {
 table-layout:fixed;
 width:100%;
-overflow: scroll;
 }
 
 h1 {color: darkturquoise;
